@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Countries;
-use App\Models\Faq;
 use App\Models\Invoices;
 use App\Models\Managers;
 use App\Models\News;
@@ -59,7 +58,6 @@ class HomeController extends Controller
         $galleries_img7 = Systems::where('title', '=', 'galleries_img7')->value('description');
         $galleries_img8 = Systems::where('title', '=', 'galleries_img8')->value('description');
         $sponsors = Sponsor::all();
-        $faqs = Faq::all();
         return view('home/index', [
             "event_name" => $event_name,
             "event_short_name" => $event_short_name,
@@ -99,8 +97,7 @@ class HomeController extends Controller
             "galleries_img6" => $galleries_img6,
             "galleries_img7" => $galleries_img7,
             "galleries_img8" => $galleries_img8,
-            "sponsors" => $sponsors,
-            "faqs" => $faqs,
+            "sponsors" => $sponsors
         ]);
     }
 

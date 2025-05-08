@@ -21,8 +21,8 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Admin',
                 'username' => 'Admin',
                 'university' => 'Admin',
-                'email' => 'semarcup@gmail.com',
-                'password' => bcrypt('semarcupxiixii'),
+                'email' => 'smo2@gmail.com',
+                'password' => bcrypt('esemodua'),
                 'is_active' => 1,
                 'is_confirm' => 0,
             ]

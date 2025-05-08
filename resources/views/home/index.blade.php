@@ -66,7 +66,7 @@
           {{-- <li><a class="nav-link scrollto" href="#hotels">Hotels</a></li> --}}
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li>
-          <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#faq">FAQ</a></li> -->
           <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -394,32 +394,7 @@
     <!-- End Sponsors Section -->
 
     <!-- =======  F.A.Q Section ======= -->
-    <section id="faq">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>F.A.Q</h2>
-          <p>Frequently Asked Questions</p>
-        </div>
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-9">
-            <ul class="faq-list">
-              <?php $i = 0; ?>
-              @foreach ($faqs as $faq)
-              <?php $i++; ?>
-              <li>
-                <div data-bs-toggle="collapse" class="collapsed question" href="#faq{{ $i }}">{{ $faq->question }}<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq{{ $i }}" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    {{ $faq->answer }}
-                  </p>
-                </div>
-              </li>
-              @endforeach
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- dihapus ada di wa -->
     <!-- End  F.A.Q Section -->
   </main>
   <!-- End #main -->

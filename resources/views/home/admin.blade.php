@@ -30,7 +30,7 @@
                             <div class="card-body pt-3">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-8">
-                                        <a href="/"><img src="{{ asset('style/TheEvent/assets/img/logo.png') }}" class="img-fluid" alt=""></a>
+                                        <a href="/"><img src="{{ asset('style/TheEvent/assets/img/logo_panjang.png') }}" class="img-fluid" alt=""></a>
                                         <h5 class="text-center font-weight-bold text-warning">ADMIN LOGIN PAGE</h5>
                                     </div>
                                 </div>
